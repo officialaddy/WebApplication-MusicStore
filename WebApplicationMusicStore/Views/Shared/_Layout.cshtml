@@ -8,7 +8,7 @@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
-    </environment>
+    </environment> 
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
@@ -33,6 +33,7 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Store">Store</a></li>
                 </ul>
                 <partial name="_LoginPartial" />
             </div>
@@ -45,7 +46,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2019 - WebApplicationMusicStore</p>
+            <p>&copy;Aditya Jangra - 200434215 - 2019 - Music Store</p>
         </footer>
     </div>
 
